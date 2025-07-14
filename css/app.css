@@ -79,12 +79,30 @@ header {
   padding: 50px 100px;
 }
 
-section {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: auto;
-  font-family: 'Courier New', monospace;
+#skill-level-guide {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
 }
+
+#skill-level-guide h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+#skill-level-guide ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skill-level-guide li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
 
 /* === Skills Section === */
 #skills {
